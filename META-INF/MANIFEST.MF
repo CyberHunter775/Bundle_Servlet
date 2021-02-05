@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bundle_Servlet
+Bundle-SymbolicName: com.bundle.servlet
+Bundle-Version: 1.0.0
+Bundle-Activator: com.bundle.servlet.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.bundle.servlet
+Import-Package: javax.servlet;version="3.1.0",
+ javax.servlet.http;version="3.1.0",
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.http;version="1.2.1"
+Bundle-ClassPath: lib/json-20201115.jar,
+ .
+Bundle-ActivationPolicy: lazy
